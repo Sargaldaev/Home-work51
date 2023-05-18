@@ -1,0 +1,36 @@
+
+
+
+
+
+body {
+    background: linear-gradient(219deg,#41532b,#2d5f55,#cdf4cd,#d01c3d);
+    background-size: 300% 300%;
+    animation: gradient-animation 30s ease infinite;
+}
+
+.App {
+    background-color: #fff;
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 50px;
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+.btn{
+    padding: 10px 35px;
+    cursor: pointer;
+    background: #2d5f55;
+    border: none;
+    border-radius: 50px;
+    color:#fff;
+}
+
+.btn:active{
+    background-color:#cdf4cd;
+}
+
+.lottery-balls {
+    margin-top: 80px;
+}
